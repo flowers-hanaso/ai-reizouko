@@ -7,7 +7,7 @@ import time,os,requests
 def send_line(picture,send_age): #line写真付きテキスト通知
 
     # LineNotify 連携用トークン・キー準備
-    line_notify_token = "(情報保護のため、開示しておりません。)"
+    line_notify_token = "(情報保護のため開示しておりません。)"
     line_notify_api = "https://notify-api.line.me/api/notify"
 
     # payload・httpヘッダー設定
